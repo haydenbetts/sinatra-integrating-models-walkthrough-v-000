@@ -39,4 +39,7 @@ class TextAnalyzer
 
     biggest
   end
+
+  def used_this_many_times
+  end
 end
