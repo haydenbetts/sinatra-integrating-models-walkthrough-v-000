@@ -41,6 +41,6 @@ class TextAnalyzer
   end
 
   def used_this_many_times
-    text.split("") {}
+    text.split("").filter{|letter| letter == most_used_letter}
   end
 end
