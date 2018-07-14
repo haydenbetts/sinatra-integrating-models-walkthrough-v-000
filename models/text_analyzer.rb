@@ -41,5 +41,6 @@ class TextAnalyzer
   end
 
   def used_this_many_times
+    text.split("") {}
   end
 end
